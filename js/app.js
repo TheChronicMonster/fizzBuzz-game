@@ -1,6 +1,10 @@
-var fizz = "fizz";
-var buzz = "buzz";
-var fizzBuzz = "Fizzbuzz";
+var fizz = "fizz";             /* 3 */
+var buzz = "buzz";             /* 5 */
+var fizzBuzz = "Fizzbuzz";     /* 3 & 5 */
+var sixer = "sixer";           /* 6 */
+var nixer = "nixer";           /* 9 */
+var sixerNixer = "sixerNixer"; /* 6 & 9 */
+
 
 for (var i=1; i <= 144; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
