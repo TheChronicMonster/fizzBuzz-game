@@ -14,13 +14,15 @@ function getRandomInt(min, max) {
 // calls getRandomInt between 1 & 144 & pushes through fizzBuzzer
 		var i = getRandomInt(1, 145);
 // for (var i=1; i <= 144; i++) { commenting out for now, may delete
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log(fizzBuzz);
-  } else if (i % 3 === 0) {
-    console.log(fizz);
-  } else if (i % 5 === 0) {
-    console.log(buzz);
-  } else {
-    console.log(i);
-  // } for line curly brace
-}
+function integerChecker() {
+	if (i % 3 === 0 && i % 5 === 0) {
+	    console.log(fizzBuzz);
+	  } else if (i % 3 === 0) {
+	    console.log(fizz);
+	  } else if (i % 5 === 0) {
+	    console.log(buzz);
+	  } else {
+	    console.log(i);
+	  // } for line curly brace
+	}
+};
