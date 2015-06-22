@@ -8,21 +8,23 @@ var sixerNixer = "sixerNixer"; /* 6 & 9 */
 
 // function creates a random integer
 function getRandomInt(min, max) {
-			return Math.floor(Math.random() * (max - min)) + min;
-		}
+	return Math.floor(Math.random() * (max - min)) + min;
+}
 
-// calls getRandomInt between 1 & 144 & pushes through fizzBuzzer
-		var i = getRandomInt(1, 145);
-// for (var i=1; i <= 144; i++) { commenting out for now, may delete
+// declaritive function to check randomInt
 function integerChecker() {
 	if (i % 3 === 0 && i % 5 === 0) {
-	    console.log(fizzBuzz);
-	  } else if (i % 3 === 0) {
-	    console.log(fizz);
-	  } else if (i % 5 === 0) {
-	    console.log(buzz);
-	  } else {
-	    console.log(i);
-	  // } for line curly brace
+		console.log(fizzBuzz);
+	} else if (i % 3 === 0) {
+		console.log(fizz);
+	} else if (i % 5 === 0) {
+		console.log(buzz);
+	} else {
+		console.log(integer);
 	}
 };
+
+// calls getRandomInt() for a number between 1 & 144 and integerChecker()
+var i = getRandomInt(1, 145);
+console.log(i);
+integerChecker();
